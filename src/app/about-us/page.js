@@ -3,7 +3,7 @@ import Image from "next/image";
 import mission from '@assets/images/mission_(2).png'
 import vision from '@assets/images/vision_(2).png'
 import Reksmey from '@assets/teams/reksmey.png'
-import tara from '@assets/teams/kitTara.png'
+// import tara from '@assets/teams/kitTara.png'
 import jessica from '@assets/teams/jessica.png'
 import ChenTo from '@assets/teams/chento.png'
 import SoBun from '@assets/teams/sobon.png'
@@ -107,8 +107,8 @@ export default function AboutUs(){
                             <h3 className={'text-center my-5 text-text-color'}>Ms. Mom Reksmey</h3>
                         </div>
                         <div className={'lg:w-1/3 md:w-2/3'}>
-                            {/*<Image src={tara} alt={'instructor Tara'} />*/}
-                            {/*<h3 className={'text-center my-5 text-text-color'}>Mr. Kit Tara</h3>*/}
+                            <Image src={'/assets/teams/kitTara.png'} alt={'instructor Tara'} width={320} height={320} />
+                            <h3 className={'text-center my-5 text-text-color'}>Mr. Kit Tara</h3>
                         </div>
                     </div>
                     <p className={'lg:w-1/2 text-lg text-description-color'}>
