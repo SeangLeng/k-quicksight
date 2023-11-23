@@ -107,9 +107,8 @@ export default function AboutUs(){
                             <h3 className={'text-center my-5 text-text-color'}>Ms. Mom Reksmey</h3>
                         </div>
                         <div className={'lg:w-1/3 md:w-2/3'}>
-                            <Image src={tara} alt={'instructor Tara'} />
-                            <h3 className={'text-center my-5 text-text-color'}>Mr. Kit Tara</h3>
-
+                            {/*<Image src={tara} alt={'instructor Tara'} />*/}
+                            {/*<h3 className={'text-center my-5 text-text-color'}>Mr. Kit Tara</h3>*/}
                         </div>
                     </div>
                     <p className={'lg:w-1/2 text-lg text-description-color'}>
